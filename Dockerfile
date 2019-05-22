@@ -7,5 +7,5 @@ ADD entrypoint.sh /entrypoint.sh
 EXPOSE 1935
 EXPOSE 8080
 
-ENTRYPOINT ["entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
 CMD /opt/nginx/sbin/nginx -g "daemon off;"
