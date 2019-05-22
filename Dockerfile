@@ -2,6 +2,8 @@ FROM jasonrivers/nginx-rtmp
 
 LABEL MAINTAINER="Andreas Kasper <andreas.kasper@goo1.de>"
 
+RUN apk add --update bash && rm -rf /var/cache/apk/*
+
 ADD entrypoint.sh /entrypoint.sh
 
 EXPOSE 1935
