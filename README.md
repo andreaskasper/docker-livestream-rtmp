@@ -1,3 +1,3 @@
-Wordpress
+Docker Livestream RTMP
 
-Minor changes for better usage in the goo1-Cloud
+Optimized for the goo1-cloud
